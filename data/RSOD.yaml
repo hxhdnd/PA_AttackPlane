@@ -1,0 +1,40 @@
+path: ../datasets/RSOD  # dataset root dir
+train: train/images  # train images (relative to 'path')  2676 images
+val: train/images  # val images (relative to 'path')  761 images
+test: test/images  # test images (optional)  384 images
+
+
+# nc: 20
+# # names: ['A1', 'A10', 'A11', 'A12', 'A13', 'A14', 'A15', 'A16', 'A17', 'A18', 'A19', 'A2', 'A20', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9']
+# names:
+#   0: A1
+#   1: A10
+#   2: A11
+#   3: A12
+#   4: A13
+#   5: A14
+#   6: A15
+#   7: A16
+#   8: A17
+#   9: A18
+#   10: A19
+#   11: A2
+#   12: A20
+#   13: A3
+#   14: A4
+#   15: A5
+#   16: A6
+#   17: A7
+#   18: A8
+#   19: A9
+
+nc: 1
+names:
+  0: plane
+
+# roboflow:
+#   workspace: project
+#   project: mar20-s3e1w
+#   version: 1
+#   license: CC BY 4.0
+#   url: https://universe.roboflow.com/project/mar20-s3e1w/dataset/1
